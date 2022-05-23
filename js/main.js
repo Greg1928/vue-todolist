@@ -20,11 +20,13 @@ const app = new Vue({
     methods: {
         addTodo(){
             if(this.newTodo !== ' '){
-               
-                
-
-
-            }
+               let obj = {
+                   text: this.newTodo,
+                   isDone: false,
+               }
+               this.todos.push(obj);
+               this.newTodo = "";
+             }
         },
     }
     
