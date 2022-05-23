@@ -28,7 +28,10 @@ const app = new Vue({
                this.newTodo = "";
              }
         },
+
+        removeTodo(i){
+            this.todos.splice(i, 1);
+        }
     }
-    
 })
 
