@@ -23,7 +23,7 @@
             <div class="task-list">
                 <ul v-if="todos.length > 0">
                     <li v-for="(task, i) in todos" :class="{lineThrough : task.isDone === true}">
-                        {{task.text}} <i class="fa-solid fa-circle-xmark" @click="removeTodo(i)"></i>
+                        {{task.text}} <i class="fa-solid fa-circle-check" @click="done(i)"></i><i class="fa-solid fa-circle-xmark" @click="removeTodo(i)"></i>
                     </li>
                 </ul>
                 <h3 v-else >There are no tasks</h3>

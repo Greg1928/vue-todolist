@@ -31,6 +31,14 @@ const app = new Vue({
 
         removeTodo(i){
             this.todos.splice(i, 1);
+        },
+        done(i){
+            if(this.todos[i].isDone === true){
+                this.todos[i].isDone = false;
+            }else{
+                this.todos[i].isDone = true;
+            }
+            
         }
     }
 })
