@@ -7,3 +7,62 @@
 .lineThrough {
     text-decoration: line-through;
 }
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: solid black 3px;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightseagreen; 
+    cursor: pointer;
+    border: solid black 3px;
+    color: white;
+    font-weight: bold;
+}
+hr{
+    margin: 5px 0;
+}
+ul{
+    list-style-type: disc;
+    margin: 40px;
+}
+li:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+li{
+    text-align: left;
+}
+
+i{
+    margin-right: 10px;
+    cursor: pointer;
+    border: solid black 2px;
+    border-radius: 100%;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: lightskyblue;
+    height: 100vh;
+}
+.task-list{
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    width: 95%;
+    margin: auto;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
