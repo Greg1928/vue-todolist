@@ -8,12 +8,25 @@ const app = new Vue({
             },
             {
                 text: "Fare i compiti",
-                isDone: true,
+                isDone: false,
             },
             {
                 text: "Portare a spasso il cane",
                 isDone: true,
             }
-        ]
+        ],
+        newTodo: "",
+    },
+    methods: {
+        addTodo(){
+            if(this.newTodo !== ' '){
+               
+                
+
+
+            }
+        },
     }
+    
 })
+
